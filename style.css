@@ -1,0 +1,49 @@
+body {
+	background: linear-gradient(-45deg, #C1DCF9,#F794B8, #A4B6FA);
+	background-size: 800% 800%;
+	animation: gradient 15s ease infinite;
+  font-family: 'Poppins', sans-serif;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 10% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.intro a {
+  color: #F794B8;
+}
+
+.intro a:hover {
+  color: #F794B8;
+  text-decoration: underline;
+}
+
+.intro h2 {
+  margin-top: 220px;
+  margin-left: 500px;
+  font-size: 80px;
+  margin-bottom: 0px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.intro h3 {
+  margin-top: 0px;
+  margin-left: 370px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.btn {
+  background-color: #C1DCF9;
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+}
