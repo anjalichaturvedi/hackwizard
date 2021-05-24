@@ -1,20 +1,113 @@
 body {
-	background: linear-gradient(-45deg, #C1DCF9,#F794B8, #A4B6FA);
-	background-size: 800% 800%;
-	animation: gradient 15s ease infinite;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  height: 200vh;
+}
+
+/* navbar */
+.navbar {
+  transition: all 0.4s;
+  font-family: 'Poppins', sans-serif;
+  background-color: #A4B6FA
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+  background: #A4B6FA;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+  color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: #555;
+  text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+  color: #555;
+}
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+  .navbar {
+    background: #fff;
+  }
+
+  .navbar .navbar-brand, .navbar .nav-link {
+    color: #555;
+  }
+}
+
+.header {
+  margin-right: 80px;
+  margin-left: 100px;
   font-family: 'Poppins', sans-serif;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 10% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+.header img {
+  margin-top: 50px;
+  float: right;
+  width: auto;
+  height: 500px;
+  display: inline;
+}
+
+.header h1 {
+  margin-top: 200px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.about {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: #E0EFFF;
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+
+.about h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.card-group {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.card {
+  margin-right: 40px;
+}
+
+.card:hover {
+transform: scale(1.1);
+}
+
+.card-title {
+  font-weight: 700;
 }
 
 /* SOCIAL MEDIA BAR */
@@ -25,7 +118,7 @@ body {
   -ms-transform: translateY(50%);
   transform: translateY(0%);
   right: 0;
-  z-index: 9999!important;
+  z-index: 9999 !important;
 }
 
 .icon-bar a {
@@ -35,7 +128,7 @@ body {
   : all 0transition.4s ease;
   color: white;
   font-size: 20px;
-  background-color: #F794B8;
+  background-color: #C1DCF9;
 }
 
 @media screen and (max-width: 800px) {
@@ -46,7 +139,7 @@ body {
 }
 
 .icon-bar a:hover {
-  color: #ffdbe5;
+  color: #A4B6FA;
 }
 
 .instagram {
@@ -61,64 +154,4 @@ body {
 .email {
   color: white;
   border-radius: 0px 0px 0px 15px;
-}
-
-
-.intro a {
-  color: #F794B8;
-}
-
-.intro a:hover {
-  color: #F794B8;
-  text-decoration: underline;
-}
-
-.intro h2 {
-  margin-top: 220px;
-  margin-left: 500px;
-  font-size: 80px;
-  margin-bottom: 0px;
-  font-family: 'Poppins', sans-serif;
-  color: white;
-}
-
-@media screen and (max-width: 800px) {
-  .intro h2 {
-    margin-top: 180px;
-    margin-left: 60px;
-    font-size: 70px;
-    margin-right: 40px;
-  }
-}
-
-
-.intro h3 {
-  margin-top: 0px;
-  margin-left: 370px;
-  font-family: 'Poppins', sans-serif;
-  color: white;
-}
-
-@media screen and (max-width: 800px) {
-  .intro h3 {
-    margin-left: 60px;
-    margin-right: 60px;
-  }
-}
-
-
-.btn {
-  background-color: #C1DCF9;
-  margin-top: 30px;
-  font-family: 'Poppins', sans-serif;
-}
-
-#register {
-  margin-left: 600px;
-}
-
-@media screen and (max-width: 800px) {
-  #register {
-    margin-left: 50px;
-  }
 }

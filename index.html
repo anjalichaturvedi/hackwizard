@@ -1,31 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Hack Wizard</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
-    <link rel="icon" href="images/favicon.png" type="image/png">
-  </head>
-  <body>
-    <div class="icon-bar">
-     <a href="https://www.instagram.com/superpositionnewdelhi/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
-     <a href="https://www.linkedin.com/company/superpositionnewdelhi/" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i></a>
-     <a href="https://github.com/anjalichaturvedi/hackwizard" target="_blank" class="linkedin"><i class="fab fa-github"></i></a>
-     <a href="mailto:ch.newdelhi@superposition.tech" target="_blank" class="email"><i class="fas fa-envelope"></i></a>
-   </div>
-    <div class="intro">
-      <h2>Hack Wizard</h2>
-      <h3>an inclusive hackathon for women on Aug 13-15, 2021</h3>
-      <button type="button" class="btn btn-light" id="register"><a href="https://forms.gle/LE2tLdKCckHmKeEPA">Interest Form</a></button>
-      <button type="button" class="btn btn-light"><a href="https://forms.gle/DSAUhVRsgerxLjd1A">Team Application</a></button>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hack Wizard</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="icon-bar">
+    <a href="https://www.instagram.com/superpositionnewdelhi/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/company/superpositionnewdelhi/" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/anjalichaturvedi/hackwizard" target="_blank" class="linkedin"><i class="fab fa-github"></i></a>
+    <a href="mailto:ch.newdelhi@superposition.tech" target="_blank" class="email"><i class="fas fa-envelope"></i></a>
+  </div>
+  <div class="holder">
+    <div id="navbar" class="navbar">
+      <nav class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container"><a href="#" class="navbar-brand text-uppercase"> Hack Wizard </a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i
+              class="fa fa-bars"></i></button>
+
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active"><a href="index.html" class="nav-link text-uppercase">Home <span class="sr-only">(current)</span></a></li>
+              <li class="nav-item active"><a href="index.html" class="nav-link text-uppercase">Resources</a></li>
+              <li class="nav-item active"><a href="index.html" class="nav-link text-uppercase">Chapter</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
-  </body>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h1>We are here to empower women in STEM.</h1>
+            <h4>Hack Wizard: A 48-hours virtual hackathon</h4>
+          </div>
+          <div class="col-sm">
+            <img src="images/header.png" align="left" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="about">
+    <h1>⚡️ ABOUT US</h1>
+    <div class="card-group">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">WHO ARE WE?</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">WHAT IS HACK WIZARD?</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">WHY PARTICIPATE?</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </html>
