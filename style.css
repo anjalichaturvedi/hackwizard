@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  height: 200vh;
 }
 
 /* navbar */
@@ -62,11 +61,12 @@ body {
 }
 
 .header img {
-  margin-top: 50px;
+  margin-top: 150px;
   float: right;
   width: auto;
-  height: 500px;
+  height: 350px;
   display: inline;
+  margin-left: 50px;
 }
 
 .header h1 {
@@ -81,14 +81,12 @@ body {
   overflow: hidden;
   width: 100%;
   background-color: #E0EFFF;
-  margin-top: 60px;
 }
 
 #about h1 {
   text-align: center;
   font-weight: bold;
   font-size: 40px;
-  margin-top: 40px;
   margin-bottom: 50px;
 }
 
@@ -153,6 +151,7 @@ transform: scale(1.1);
 #about h4 {
   font-weight: 700;
 }
+
 
 /* SOCIAL MEDIA BAR */
 .icon-bar {
