@@ -88,6 +88,8 @@ body {
   border-radius: 25px;
 }
 
+
+
 .main-button:hover {
   background-color: #c4d1ff;
   text-decoration: underline;
@@ -99,6 +101,11 @@ body {
 
 .main-button a:hover {
   color: #fff;
+}
+
+.main-img {
+  width: 100%;
+  height: auto;
 }
 
 #about {
@@ -174,6 +181,12 @@ body {
 transform: scale(1.1);
 }
 
+@media (max-width: 600px) {
+  .grid-container {   
+    flex-direction: column;
+  }
+}
+	
 #about h4 {
   font-weight: 700;
 }
