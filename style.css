@@ -28,6 +28,7 @@ body {
 .navbar.active {
   background: #A4B6FA;
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  color: black;
 }
 
 .navbar.active .nav-link {
@@ -38,6 +39,7 @@ body {
 .navbar.active .nav-link:focus {
   color: #555;
   text-decoration: none;
+  color: black;
 }
 
 .navbar.active .navbar-brand {
@@ -50,7 +52,7 @@ body {
   }
 
   .navbar .navbar-brand, .navbar .nav-link {
-    color: #555;
+    color: black;
   }
 }
 
@@ -58,6 +60,13 @@ body {
   margin-right: 80px;
   margin-left: 100px;
   font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    margin-left: 20px;
+    margin-bottom: 70px;
+  }
 }
 
 .header img {
@@ -69,10 +78,23 @@ body {
   margin-left: 50px;
 }
 
+@media screen and (max-width: 800px) {
+  .header img {
+    display: none;
+  }
+}
+
 .header h1 {
   margin-top: 200px;
   font-size: 50px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .header h1 {
+    margin-right: 0px;
+    font-size: 40px;
+  }
 }
 
 .main-button {
@@ -87,8 +109,6 @@ body {
   border: none;
   border-radius: 25px;
 }
-
-
 
 .main-button:hover {
   background-color: #c4d1ff;
@@ -123,26 +143,42 @@ body {
   margin-bottom: 50px;
 }
 
-.grid-container{
-	margin: 0px 3% 5% 0%;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 20px 50px;
-  margin-left: 60px;
-  margin-right: 60px;
+.eventbox {
+  background-color: white;
+  width: 500px;
+  height: 200px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px;
+  color: #A67BD4;
+  margin-bottom: 50px;
 }
 
-.grid-container div {
-	border-radius: 15px;
-	box-shadow: inset 0 0 10px #FFFFFF;
-	background-color: rgba(255, 255, 255, .97);
-	padding: 25px 30px;
-	box-shadow: 0 0 11px rgba(255, 192, 227, .3);
-	transition: box-shadow .2s;
+@media screen and (max-width: 800px) {
+  .eventbox {
+    width: 310px;
+    height: 230px;
+  }
 }
 
-.grid-container div:hover {
-	box-shadow: 0 0 11px #A4B6FA;
+#eventbox1 {
+  margin-left:200px;
+  text-align: center;
+  float:left;
+}
+
+@media screen and (max-width: 800px) {
+  #eventbox1 {
+    margin-left: 30px;
+    margin-right: 20px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #eventbox2 {
+    height: 300px;
+  }
 }
 
 #about h2 {
@@ -177,16 +213,10 @@ body {
 	font-size: 1.1rem;
 }
 
-.about-container:hover {
+.eventbox:hover {
 transform: scale(1.1);
 }
 
-@media (max-width: 600px) {
-  .grid-container {   
-    flex-direction: column;
-  }
-}
-	
 #about h4 {
   font-weight: 700;
 }
