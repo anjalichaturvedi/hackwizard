@@ -80,6 +80,13 @@ body {
 
 @media screen and (max-width: 800px) {
   .header img {
+    height: 200px;
+    margin-top: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header img {
     display: none;
   }
 }
@@ -162,7 +169,7 @@ body {
 }
 
 #eventbox1 {
-  margin-left:200px;
+  margin-left:100px;
   text-align: center;
   float:left;
 }
