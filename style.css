@@ -297,6 +297,46 @@ summary:focus {
   text-decoration: underline;
 }
 
+/* Prizes */
+.prizes {
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: #E0EFFF;
+  margin-top: 50px;
+}
+
+.prizes h2 {
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.col-sm {
+  background-color: white;
+  box-sizing: border-box;
+  width: 200px;
+  border-radius: 20px;
+  color: #A4B6FA;
+  justify-content: center;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+hr {
+  background-color: #E0EFFF;
+}
+
+.col-sm h3 {
+  font-weight: 500;
+}
+
+/* sponsors */
 .sponsors {
   font-family: 'Poppins', sans-serif;
   justify-content: center;
