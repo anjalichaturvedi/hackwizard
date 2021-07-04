@@ -297,6 +297,42 @@ summary:focus {
   text-decoration: underline;
 }
 
+.sponsors {
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.sponsors h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.sponsors h6 {
+  margin-bottom: 30px;
+}
+
+.sponsors a {
+  color: #A4B6FA;
+  text-decoration: underline;
+}
+
+.sponsors a:hover {
+  color: #E0EFFF;
+  text-decoration: underline;
+}
+
+.sponsors img {
+  width: 250px;
+  height: 100%;
+  transition: transform .400s;
+}
+
+.sponsors img:hover {
+  transform: scale(1.2);
+}
 .footer {
   background: #A4B6FA;
   font-family: 'Poppins', sans-serif;
