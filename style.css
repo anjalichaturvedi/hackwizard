@@ -298,15 +298,40 @@ summary:focus {
   text-decoration: underline;
 }
 
-/* Prizes */
+/*Schedule */
+.schedule {
+  margin-top: 50px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #E0EFFF;
+  width: 100%;
+}
+
+.schedule h2 {
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.airtable-embed {
+  margin-left: 140px;
+  width: 80%;
+}
+
+@media screen and (max-width: 800px) {
+  .airtable-embed {
+    margin-left: 10%;
+  }
+}
+
+/* Old Prizes
 .prizes {
   font-family: 'Poppins', sans-serif;
   margin: 0px;
   padding: 0;
   overflow: hidden;
   width: 100%;
-  background-color: #E0EFFF;
-  margin-top: 50px;
+  background-color: 0000;
 }
 
 .prizes h2 {
@@ -335,6 +360,41 @@ hr {
 
 .col-sm h3 {
   font-weight: 500;
+}  */
+
+/* Prizes Updated */
+.prizes {
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.prizes h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.prizes img {
+  height: 80%;
+  width: 60%;
+  transition: transform .400s;
+}
+
+.prizes img:hover {
+transform: scale(1.1);
+}
+
+.prizes a {
+  color: #A4B6FA;
+  text-decoration: underline;
+}
+
+.prizes a:hover {
+  color: #E0EFFF;
+  text-decoration: underline;
 }
 
 /* sponsors */
@@ -374,6 +434,26 @@ hr {
 .sponsors img:hover {
   transform: scale(1.2);
 }
+
+@media screen and (max-width: 800px) {
+  .sponsors img {
+    width: 160px;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sponsors img {
+    width: 120px;
+    height: 90%;
+    margin-bottom: 3%;
+  }
+
+  .sponsorsimg {
+    margin-left: -70px;
+  }
+}
+
 .footer {
   background: #A4B6FA;
   font-family: 'Poppins', sans-serif;
