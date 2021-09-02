@@ -406,6 +406,10 @@ transform: scale(1.1);
   margin-top: 50px;
 }
 
+.col-md-4, .col-6 {
+  margin-bottom: 20px;
+}
+
 .sponsors h2 {
   font-size: 40px;
   font-weight: bold;
@@ -426,7 +430,7 @@ transform: scale(1.1);
 }
 
 .sponsors img {
-  width: 250px;
+  width: 200px;
   height: 100%;
   transition: transform .400s;
 }
